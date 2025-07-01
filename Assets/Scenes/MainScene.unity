@@ -1397,6 +1397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeTxt: {fileID: 788395410}
   nowScore: {fileID: 947392296}
+  bestScore: {fileID: 2125720977}
   square: {fileID: 1961674983972294133, guid: 5abc3809e0d3e70428764649b246436c, type: 3}
   endPanel: {fileID: 1315777699}
 --- !u!1 &1723961375
