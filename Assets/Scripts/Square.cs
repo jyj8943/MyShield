@@ -20,7 +20,10 @@ public class Square : MonoBehaviour
     
     void Update()
     {
-        
+        if (transform.position.y < -5f)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collison)
