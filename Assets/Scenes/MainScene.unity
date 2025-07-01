@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 788395411}
   - component: {fileID: 788395410}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: TimeTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -799,6 +799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54f1c3aa51ad6f042b1b95da804106bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeTxt: {fileID: 788395410}
   square: {fileID: 1961674983972294133, guid: 5abc3809e0d3e70428764649b246436c, type: 3}
 --- !u!1 &1723961375
 GameObject:
