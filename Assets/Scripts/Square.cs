@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Square : MonoBehaviour
 {
@@ -19,5 +21,13 @@ public class Square : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D collison)
+    {
+        if (collison.gameObject.CompareTag("Player"))
+        {
+            GameManager.instance.GameOver();
+        }
     }
 }
